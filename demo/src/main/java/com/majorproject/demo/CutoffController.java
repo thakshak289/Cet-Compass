@@ -6,10 +6,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/cutoffs")
-@CrossOrigin(origins = {
-        "http://localhost:8080",
-        "http://localhost:8081"
-})
+@CrossOrigin(origins = "*")
 public class CutoffController {
 
     private final CutoffService cutoffService;
