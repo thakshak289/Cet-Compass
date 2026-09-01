@@ -102,7 +102,7 @@ export function CollegePredictor() {
        * Send the student's information to Spring Boot.
        */
       const response = await fetch(
-        "http://localhost:8080/api/cutoffs/recommendations",
+        "https://cet-compass.onrender.com/api/cutoffs/recommendations",
         {
           method: "POST",
           headers: {
